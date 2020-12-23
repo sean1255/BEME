@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="가격(수강료)"
+            android:textColor="#0053DD"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" 1th : 25,000원 "
+                android:textColor="#090909"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
+            android:layout_marginTop="7dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="  2th : 40,000원      (10% 할인)"
+                android:textColor="#090909"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120px"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
+            android:layout_marginTop="7dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" 10th : 230,000원     (20% 할인)"
+                android:textColor="#090909"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110px"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buy2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#FD8E00"
+            android:text="구매하기"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="유의사항"
+                android:textColor="#0053DD"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@drawable/box"
+                android:textColor="#090909"
+                android:textSize="16dp"
+                android:text=" 1) 카운터는 5층에 위치 \n\n 2) 6층에서 QR코드 찍고 대기해주세요"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="수강생후기"
+                android:textColor="#0053DD"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/box"
+                android:textColor="#090909"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text=" 별점: ***\n  공간이 너무 좁았어요"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/box"
+                android:layout_marginTop="10dp"
+                android:textColor="#090909"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text=" 별점: ** \n  바닥재질이 많이 미끄럽더라고요"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/box"
+                android:layout_marginTop="10dp"
+                android:textColor="#090909"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text=" 별점: **** \n  다른학원에 비해 가격대비 괜찮은것같아요"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#090909"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="1 2 3 4 5 6  >"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingTop="10dp"
+                android:text="CONTACT"
+                android:textColor="#0053DD"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#090909"
+                android:textStyle="bold"
+                android:text=" https://haha.com"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#090909"
+                android:textStyle="bold"
+                android:text=" 010-0482-9473"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" 인스타 "
+                android:textColor="#CF2ECC"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="페이스북"
+                android:textColor="#2E64EA"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

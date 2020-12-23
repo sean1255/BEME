@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="#090909"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:text="BEME"/>
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Q  원하는 학원을 검색해보세요"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FD8E00"
+            android:layout_gravity="center"
+            android:text="검색"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:text="CHOREOGRAPHY"
+            android:textColor="#0053DD"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/million"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
+            android:textColor="#090909"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="\n원밀리언 댄스스튜디오                                  BIGINNER\n 서울시 성동구                                                                       \n    25,000원 / 1회                                                                       \n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
+            android:layout_marginTop="15dp"
+            android:textColor="#090909"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="\n    ABC 댄스 스튜디오                                          BEGINNER \n    서울시 용산구                                                         KIDS\n    30,000원 / 1회 \n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
+            android:textColor="#090909"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="\n    타파하 댄스 스튜디오                                       BEGINNER\n    서울시 광진구 \n    30,000원 / 1회 \n"/>
+
+    </LinearLayout>
+
+</LinearLayout>

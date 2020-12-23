@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="JEONGYEON IM\n  임정연 회원님"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text=" 결제 완료 "
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/box"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text=" 쿠폰 / 할인 / 적립금"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="    쿠폰                                        -2,250원 (5%)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="    등급 할인                                   -900원 (2%)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="    적립금                                    -1,350원 (3%)"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text=" 할인합계 "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text=" 40,000 원 "
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="결제 클래스"
+        android:textColor="#0053DD"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:srcCompat="@drawable/onemillion_0"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="134dp"
+            android:layout_marginTop="17dp"
+            android:text="  학원명      : 원밀리언 댄스스튜디오\n  마스터     : LIA_KIM  \n  시간         : 6:00 ~ 7: 00 \n  현재 상태: 미수강 \n "
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
